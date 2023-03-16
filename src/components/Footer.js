@@ -1,7 +1,8 @@
 import React from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import "../styles/Footer.css";
 
 export const Footer = () => {
   return (
@@ -11,7 +12,7 @@ export const Footer = () => {
         <InstagramIcon />
         <TwitterIcon />
       </div>
-      <p></p>
+      <p>Tüm Hakları Saklıdır | BurgerYiyelim</p>
     </div>
   );
 };
